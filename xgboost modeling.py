@@ -495,9 +495,9 @@ print('Sleep Disturbance Data Grouping pearson correlation:   ',  np.corrcoef(y_
 
 
 #Importing Sleep Disturbance Data Standardized
-d17 = pd.read_csv("data_sleepdist_40.csv", usecols = range(1,120), header = 0)
+d17 = pd.read_csv("data_sleepdist_40_standardized.csv", usecols = range(1,120), header = 0)
 d17 = d17.fillna(0)
-s17 = pd.read_csv("data_sleepdist_40.csv", usecols = range(120,121) , header = 0)
+s17 = pd.read_csv("data_sleepdist_40_standardized.csv", usecols = range(120,121) , header = 0)
 
 #Split dataset
 seed = 0
